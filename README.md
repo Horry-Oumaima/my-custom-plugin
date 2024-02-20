@@ -11,9 +11,67 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`echo(...)`](#echo)
+* [`testPluginMethod(...)`](#testpluginmethod)
+* [`takePhoto()`](#takephoto)
+* [`openCamera()`](#opencamera)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### echo(...)
+
+```typescript
+echo(options: { value: string; }) => Promise<{ value: string; }>
+```
+
+| Param         | Type                            |
+| ------------- | ------------------------------- |
+| **`options`** | <code>{ value: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### testPluginMethod(...)
+
+```typescript
+testPluginMethod(option: { msg: string; }) => Promise<{ value: string; }>
+```
+
+| Param        | Type                          |
+| ------------ | ----------------------------- |
+| **`option`** | <code>{ msg: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### takePhoto()
+
+```typescript
+takePhoto() => Promise<{ success: boolean; path: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ success: boolean; path: string; }&gt;</code>
+
+--------------------
+
+
+### openCamera()
+
+```typescript
+openCamera() => Promise<{ success: boolean; message: string; }>
+```
+
+**Returns:** <code>Promise&lt;{ success: boolean; message: string; }&gt;</code>
+
+--------------------
+
 </docgen-api>
